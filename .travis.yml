@@ -8,6 +8,7 @@ node_js:
 # Install grunt-cli globally before installing all dependencies, including grunt
 before_install:
   - npm install grunt-cli -g
+  - npm install
 
 script:
   - npm test
