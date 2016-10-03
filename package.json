@@ -40,6 +40,6 @@
     "grunt-contrib-watch": "^0.6.1"
   },
   "scripts": {
-    "test": "npm run jscs && grunt travis --verbose"
+    "test": "grunt travis --verbose"
   }
 }

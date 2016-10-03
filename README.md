@@ -1,5 +1,4 @@
-# jQuery Accordion
-================
+# jQuery Accordion [![Build Status](https://secure.travis-ci.org/nayzawoo/jquery-accordion.svg?branch=master)](https://travis-ci.org/nayzawoo/jquery-accordion) ![Bower Version](https://badge.fury.io/bo/jq-accordion.svg)
 
 This is the fork of the [jQuery Accordion](https://github.com/vctrfrnndz/jquery-accordion).
 
@@ -10,6 +9,12 @@ Jquery Accordion uses CSS transitions to animate opening/closing with a fallback
 Supports IE9+ and modern browsers.
 
 Developed by [@nayzawoo](http://nayzawoo.com). Licensed under the MIT License.
+
+## Installation
+
+	bower install jq-accordion --save
+	// or
+	npm install jq-accordion --save
 
 ## Usage
 
