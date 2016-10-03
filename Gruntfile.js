@@ -33,6 +33,15 @@ module.exports = function(grunt) {
 			}
 		},
 
+		copy: {
+			img: {
+				expand: true,
+				cwd: 'src/img',
+				src: ['**'],
+				dest: 'dist/img'
+			}
+		},
+
 		// Lint definitions
 		jshint: {
 			files: ["src/js/jquery.accordion.js", "test/**/*"],
@@ -75,6 +84,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-uglify");
 	grunt.loadNpmTasks("grunt-contrib-watch");
 	grunt.loadNpmTasks("grunt-gh-pages");
+	grunt.loadNpmTasks("grunt-contrib-copy");
 
 	grunt.registerTask("travis", ["jshint"]);
 	grunt.registerTask("lint", ["jshint"]);

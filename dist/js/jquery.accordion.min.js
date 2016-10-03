@@ -1,5 +1,5 @@
 /*
- *  jq-accordion - v1.0.0
+ *  jq-accordion - vv1.0.0
  *  Responsive, CSS powered, jQuery accordion plugin
  *  http://nayzawoo.github.com/jquery-accordion
  *
