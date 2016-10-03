@@ -1,0 +1,25 @@
+{
+  "name": "jq-accordion",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    "Nay Zaw Oo <nayzawoo.me@gmail.com>"
+  ],
+  "description": "Responsive, CSS powered, jQuery accordion plugin",
+  "homepage": "http://nayzawoo.github.com/jquery-accordion",
+  "keywords": [
+    "accordion",
+    "jquery-plugin",
+    "jquery",
+    "plugins"
+  ],
+  "main": "src/js/jquery.accordion.js",
+  "dependencies": {
+    "jquery": ">=1.11.1"
+  },
+  "ignore": [
+    "npm-debug.log",
+    "bower_components",
+    "node_modules"
+  ]
+}
