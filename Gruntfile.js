@@ -1,9 +1,9 @@
-module.exports = function( grunt ) {
+module.exports = function(grunt) {
 
-	grunt.initConfig( {
+	grunt.initConfig({
 
 		// Import package manifest
-		pkg: grunt.file.readJSON( "package.json" ),
+		pkg: grunt.file.readJSON("package.json"),
 
 		// Banner definitions
 		meta: {
@@ -23,15 +23,19 @@ module.exports = function( grunt ) {
 			options: {
 				banner: "<%= meta.banner %>"
 			},
-			dist: {
-				src: [ "src/js/jquery.accordion.js" ],
+			js: {
+				src: ["src/js/jquery.accordion.js"],
 				dest: "dist/js/jquery.accordion.js"
+			},
+			css: {
+				src: ["src/css/jquery.accordion.css"],
+				dest: "dist/css/jquery.accordion.css"
 			}
 		},
 
 		// Lint definitions
 		jshint: {
-			files: [ "src/js/jquery.accordion.js", "test/**/*" ],
+			files: ["src/js/jquery.accordion.js", "test/**/*"],
 			options: {
 				jshintrc: ".jshintrc"
 			}
@@ -40,7 +44,7 @@ module.exports = function( grunt ) {
 		// Minify definitions
 		uglify: {
 			dist: {
-				src: [ "dist/js/jquery.accordion.js" ],
+				src: ["dist/js/jquery.accordion.js"],
 				dest: "dist/js/jquery.accordion.min.js"
 			},
 			options: {
@@ -48,23 +52,32 @@ module.exports = function( grunt ) {
 			}
 		},
 
+		"gh-pages": {
+			options: {
+				base: 'demo',
+				add: true
+			},
+			src: ['**']
+		},
+
 		// watch for changes to source
 		// Better than calling grunt a million times
 		// (call 'grunt watch')
 		watch: {
-			files: [ "src/*", "test/**/*" ],
-			tasks: [ "default" ]
+			files: ["src/*", "test/**/*"],
+			tasks: ["default"]
 		}
 
-	} );
+	});
 
-	grunt.loadNpmTasks( "grunt-contrib-concat" );
-	grunt.loadNpmTasks( "grunt-contrib-jshint" );
-	grunt.loadNpmTasks( "grunt-contrib-uglify" );
-	grunt.loadNpmTasks( "grunt-contrib-watch" );
+	grunt.loadNpmTasks("grunt-contrib-concat");
+	grunt.loadNpmTasks("grunt-contrib-jshint");
+	grunt.loadNpmTasks("grunt-contrib-uglify");
+	grunt.loadNpmTasks("grunt-contrib-watch");
+	grunt.loadNpmTasks("grunt-gh-pages");
 
-	grunt.registerTask( "travis", [ "jshint"] );
-	grunt.registerTask( "lint", [ "jshint" ] );
-	grunt.registerTask( "build", [ "concat", "uglify" ] );
-	grunt.registerTask( "default", [ "jshint", "build"] );
+	grunt.registerTask("travis", ["jshint"]);
+	grunt.registerTask("lint", ["jshint"]);
+	grunt.registerTask("build", ["concat", "uglify"]);
+	grunt.registerTask("default", ["jshint", "build"]);
 };

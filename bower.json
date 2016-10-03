@@ -15,7 +15,7 @@
   ],
   "main": "src/js/jquery.accordion.js",
   "dependencies": {
-    "jquery": "1"
+    "jquery": ">=1.11.1"
   },
   "ignore": [
     "npm-debug.log",
