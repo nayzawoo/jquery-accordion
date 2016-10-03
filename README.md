@@ -114,7 +114,7 @@ To initialize the accordion with an open state just add the class `.open` to you
 
 ## Contributing
 
-Check [CONTRIBUTING.md](https://github.com/jquery-boilerplate/boilerplate/blob/master/CONTRIBUTING.md) for more information.
+Check [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
 ## License
 
