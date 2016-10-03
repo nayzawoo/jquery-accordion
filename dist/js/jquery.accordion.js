@@ -1,9 +1,10 @@
 /*
- *  jquery-accordion - v1.0.0
+ *  jq-accordion - v1.0.0
  *  Responsive, CSS powered, jQuery accordion plugin
  *  http://nayzawoo.github.com/jquery-accordion
  *
- *  Made by Nay Zaw Oo
+ *  (c) 2014 Victor Fernandez <victor@vctrfrnndz.com>
+ *  (c) 2016 Nay Zaw Oo <nayzawoo.me@gmail.com>
  *  Under MIT License
  */
 "use strict";

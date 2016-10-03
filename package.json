@@ -1,5 +1,5 @@
 {
-  "name": "jquery-accordion",
+  "name": "jq-accordion",
   "version": "1.0.0",
   "description": "Responsive, CSS powered, jQuery accordion plugin",
   "keywords": [
@@ -16,7 +16,7 @@
     "url": "https://github.com/nayzawoo/jquery-accordion/issues"
   },
   "author": {
-    "name": "Nay Zaw Oo",
+    "name": "Nay Zaw Oo <nayzawoo.me@gmail.com>",
     "email": "nayzawoo",
     "url": "https://github.com/nayzawoo"
   },
