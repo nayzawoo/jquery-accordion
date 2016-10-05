@@ -8,7 +8,7 @@ Jquery Accordion uses CSS transitions to animate opening/closing with a fallback
 
 Supports IE9+ and modern browsers.
 
-Developed by [@nayzawoo](http://nayzawoo.com). Licensed under the MIT License.
+Developed by [Victor Fernández](http://github.com/vctrfrnndz). Licensed under the MIT License.
 
 ## Installation
 
