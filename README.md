@@ -21,7 +21,7 @@ Developed by [Victor Fernández](http://github.com/vctrfrnndz). Licensed under t
 1. Include jQuery:
 
 ```html
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 ```
 
 2. Include plugin's code:
