@@ -2,6 +2,7 @@
   "name": "jq-accordion",
   "version": "v1.0.1",
   "description": "Responsive, CSS powered, jQuery accordion plugin",
+  "main": "dist/js/jquery.accordion.min.js",
   "keywords": [
     "accordion",
     "jquery-plugin",
