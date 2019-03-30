@@ -22,6 +22,7 @@ button {
     display: block;
     text-align: left;
     color: inherit;
+	cusor: pointer;
 }
 
 img {
